@@ -70,7 +70,7 @@ footer p {
 /* Стиль для контактної інформації */
 footer p:nth-child(2), footer p:nth-child(3), footer p:nth-child(4) {
     font-weight: bold;
-    color: #f1f1f1;
+    color: #1a0404;
 }
 
 /* Адаптивність для мобільних пристроїв */
