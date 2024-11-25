@@ -1,0 +1,90 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Стиль для посилання 'Назад' */
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #0056b3;
+}
+
+/* Стиль для основного тексту */
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль для блоку з фотографією */
+.warning {
+    max-width: 400px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffeded;
+    border: 1px solid #ff6b6b;
+    border-radius: 8px;
+}
+
+.warning img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.warning p {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+/* Стиль для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Стиль для контактної інформації */
+footer p:nth-child(2), footer p:nth-child(3), footer p:nth-child(4) {
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    p, .warning {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
