@@ -38,8 +38,8 @@ i {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #000000;
-    border-bottom: 1px solid #000000;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo img {
@@ -69,8 +69,7 @@ i {
 }
 
 .search-bar button:hover {
-    background-color: #555555;
-
+    background-color: #ddd;
 }
 
 .user-menu img {
@@ -88,9 +87,9 @@ i {
 /* Сайдбар (бічне меню) */
 .sidebar {
     min-width: 250px;
-    background-color: #000000;
+    background-color: #fff;
     padding: 15px;
-    border-right: 1px solid #000000;
+    border-right: 1px solid #ddd;
     position: sticky;
     top: 70px; /* Залишаємо місце для заголовка */
     height: calc(100vh - 70px); /* Висота на всю висоту вікна */
@@ -110,12 +109,12 @@ i {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #333;
     font-weight: bold;
 }
 
 .sidebar a:hover {
-    background-color: #000000;
+    background-color: #f1f1f1;
     padding: 5px;
     border-radius: 4px;
 }
@@ -150,8 +149,6 @@ i {
 .video p {
     margin-top: 10px;
     font-size: 14px;
-    color: #ffffff;
-
 }
 
 .video:hover {
